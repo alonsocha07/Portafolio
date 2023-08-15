@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+:root {
+    --verde: #2BABAB;
+    --gris: #F2F2F2;
+}
+
+* {
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-size: 3.0rem; /* TamaÃ±o de fuente para h1 */
+    margin-bottom: 20px;
+    
+}
+h2 {
+    font-size: 2.6rem; /* TamaÃ±o de fuente para h2 */
+    margin-bottom: 20px;
+    color: var(--verde);
+}
+h3 {
+   font-size: 2.2rem; /* TamaÃ±o de fuente para h3 */
+   margin-bottom: 20px;
+   color: var(--verde);
+}
+h4 {
+   font-size: 1.8rem; /* TamaÃ±o de fuente para h4 */
+   margin-bottom: 20px;
+   color: var(--verde);
+}
+h5 {
+  font-size: 1.6rem; /* TamaÃ±o de fuente para h5 */
+  margin-bottom: 20px;
+  color: var(--verde);
+}
+h6 {
+  font-size: 1.4rem; /* TamaÃ±o de fuente para h6 */
+  margin-bottom: 20px;
+  color: var(--verde);
+}
+
+
+hr {
+    background-color: #dbdbdb;
+    border: none;
+    height: 1px;
+}
+
+.icon-animation:hover {
+    transform: scale(1.1);
+    transition: transform 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.section-container {
+    padding: 50px 130px;
+}
+
+.title{
+    font-size: 3.6rem;
+    color: var(--verde);
+    margin-bottom: 20px;
+}
+.subtitle {
+    font-size: 2.4rem;
+    color: var(--verde);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.center{
+    display: flex; 
+    justify-content: center;
+}
+
+header nav {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    padding: 30px;
+    background-color: #F2F2F2;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav span {
+    background-image: url('/Assets/codigo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    font-size: 1.6rem;
+    font-weight: 500;
+    display: flex;
+}
+
+nav ul li {
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+nav ul a {
+    color: black;
+    font-size: 1.6rem;
+    font-weight: 500;
+
+}
+
+nav ul a:hover {
+    color: #2BABAB;
+}
+
+
+
+.aboutme-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 50px;
+    gap: 50px;
+}
+
+.aboutme-container .aboutme-info-container {
+    padding: 80px;
+}
+
+.aboutme-container .aboutme-info-container h1 {
+    font-size: 3.6rem;
+    margin-bottom: 10px;
+}
+
+.aboutme-container .aboutme-info-container h3 {
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.aboutme-container .aboutme-info-container h1 span {
+    color: var(--verde);
+    font-size: 4.0rem;
+}
+
+
+.aboutme-container .aboutme-info-container .aboutme-info-social {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.aboutme-container .aboutme-info-container .aboutme-info-social button {
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: var(--verde);
+    color: white;
+    font-size: 2.0rem;
+}
+
+.aboutme-container .aboutme-info-container .aboutme-info-social .aboutme-info-linkedin {
+    width: 50px;
+    height: 50px;
+    background-image: url('/Assets/linkedin.png');
+    display: inline-block;
+    background-size: cover;
+    margin-left: 30px;
+}
+
+.aboutme-container .aboutme-info-container .aboutme-info-social .aboutme-info-github {
+    width: 50px;
+    height: 50px;
+    background-image: url('/Assets/github.png');
+    background-size: cover;
+
+    display: inline-block;
+    margin-left: 30px;
+}
+
+
+.aboutme-container .aboutme-img-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutme-container .aboutme-img-container img {
+    width: 232px;
+    height: 232px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.aboutme-img-container .lines-container {
+    width: 130px;
+    height: 50px;
+    object-fit: cover;
+    position: absolute;
+
+}
+
+.aboutme-img-container .up {
+    margin-bottom: 250px;
+    margin-right: 240px;
+}
+
+.aboutme-img-container .down {
+    transform: rotate(180deg);
+    margin-top: 250px;
+    margin-left: 240px;
+}
+
+.aboutme-img-container .lines-container .line-one {
+    width: 85px;
+    height: 5px;
+    background-color: var(--verde);
+    margin-bottom: 10px;
+
+}
+
+.aboutme-img-container .lines-container .line-two {
+    width: 117px;
+    height: 5px;
+    background-color: var(--verde);
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.projects-container .project-individual {
+    width: 520px;
+    height: 500px;
+    background-color: var(--gris);
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.projects-container .project-individual:hover {
+    transform: scale(1.03);
+    transition: transform 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+.projects-container .project-individual img {
+    width: 100%;
+    height: 290px;
+    left: 123px;
+    top: 798px;
+    border-radius: 10px 10px 0px 0px;
+    object-fit: fill;
+    border-bottom: 1px solid #d8d8d8;
+    margin-bottom: 10px;
+}
+
+.projects-container .project-individual p {
+    font-size: 1.4rem;
+    padding: 0 10px;
+}
+
+.projects-container .project-individual ul {
+    font-size: 1.4rem;
+    padding: 0 10px;
+    list-style: inside;
+}
+
+.real-tecnologies-project {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+
+.real-tecnologies-project span {
+    display: block;
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+.projects-container .project-personal{
+    width: 420px;
+    height: 100%; /*300px LE PUSE 100% PARA ARREGLARLO TEMPORALMENTE*/
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.projects-container .project-personal img{
+   object-fit: contain;
+   height: 267px;
+   border-bottom: none;
+}
+
+.personal-space {
+    
+    gap: 90px;
+}
+
+
+
+.iconos-project-1 :nth-child(1) span {
+    background-image: url('/Assets/tecnologies/html-sinnombre.png');
+}
+.iconos-project-1 :nth-child(2) span {
+    background-image: url('/Assets/tecnologies/css-sinnombre.png');
+}
+.iconos-project-1 :nth-child(3) span {
+    background-image: url('/Assets/tecnologies/javascript.png');
+}
+.iconos-project-1 :nth-child(4) span {
+    background-image: url('/Assets/tecnologies/net.png');
+}
+.iconos-project-1 :nth-child(5) span {
+    background-image: url('/Assets/tecnologies/azure-devops.png');
+}
+
+
+.iconos-project-2 :nth-child(1) span {
+    background-image: url('/Assets/tecnologies/html-sinnombre.png');
+}
+.iconos-project-2 :nth-child(2) span {
+    background-image: url('/Assets/tecnologies/css-sinnombre.png');
+}
+.iconos-project-2 :nth-child(3) span {
+    background-image: url('/Assets/tecnologies/Firebase.png');
+}
+.iconos-project-2 :nth-child(4) span {
+    background-image: url('/Assets/tecnologies/net.png');
+}
+.iconos-project-2 :nth-child(5) span {
+    background-image: url('/Assets/github.png');
+}
+
+
+.iconos-personal-1 :nth-child(1) span {
+    background-image: url('/Assets/tecnologies/html-sinnombre.png');
+}
+.iconos-personal-1 :nth-child(2) span {
+    background-image: url('/Assets/tecnologies/css-sinnombre.png');
+}
+.iconos-personal-1 :nth-child(3) span {
+    background-image: url('/Assets/tecnologies/javascript.png');
+}
+.iconos-personal-1 :nth-child(4) span {
+    background-image: url('/Assets/tecnologies/chatgpt.png');
+}
+.iconos-personal-1 :nth-child(5) span {
+    background-image: url('/Assets/tecnologies/Dall-E.png');
+}
+
+
+#h3-proyectos-personales {
+    margin-top: 150px;
+}
+
+
+/*Education*/
+
+.universidad-container{
+    display: flex;
+    padding-right: 30px;
+}
+.info-universidad{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ruta-titulo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px
+}
+
+.ruta-titulo img{
+    width: 330px;
+    height: 255px;
+}
+.htmlcssruta{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    gap: 20px; 
+    padding: 20px;
+    justify-items: center;
+    text-align: center;
+}
+
+.htmlcssruta div img{
+    width: 231px;
+    height: 178px;
+}
+
+
+@media (max-width: 1470px) {
+    .htmlcssruta { grid-template-columns: repeat(4, 1fr); }
+  }
+
+@media (max-width: 1257px) {
+    .htmlcssruta { grid-template-columns: repeat(3, 1fr); }
+  }
+
+  @media (max-width: 1013px) {
+    .htmlcssruta { grid-template-columns: repeat(2, 1fr); }
+  }
