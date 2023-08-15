@@ -1,23 +1,25 @@
-.contact-container{
+.contact-container {
     display: flex;
     justify-content: space-between;
 }
-.horizontal-card-container{
+
+.horizontal-card-container {
     width: 700px;
     height: 400px;
     background-color: var(--gris);
     box-shadow: rgba(0, 0, 0, 0.15) 2.95px 5.95px 7.6px;
+    border-radius: 10px;
 }
 
 
-.vertical-card-container{
+.vertical-card-container {
     width: 400px;
     height: 700px;
     background-color: var(--gris);
     box-shadow: rgba(0, 0, 0, 0.15) 2.95px 5.95px 7.6px;
 }
 
-.contact-image{
+.contact-image {
     height: 152px;
     width: 152px;
     object-fit: cover;
@@ -25,42 +27,97 @@
     margin-left: 35px;
     margin-top: 75px;
 }
-.card-info-vertical{
+
+.card-info-vertical {
     display: flex;
 
 }
 
-.card-superior-info{
+.card-superior-info {
     margin-top: 30px;
     margin-left: 40px;
 }
 
-.card-name h2{
+.card-name h2 {
     font-size: 3.2rem;
     margin-bottom: 0px;
 }
-.card-name h3{
+
+.card-name h3 {
     font-size: 2.0rem;
     color: black;
 }
-.card-contact img{
+
+.card-contact img {
     height: 25px;
     width: 25px;
 }
-.display-flex{
+
+.display-flex {
     display: flex;
     margin-bottom: 12px;
 }
-.display-flex p{
+
+.display-flex p {
     margin-left: 15px
 }
 
-.card-tecnologies{
-margin-left: 35px;
-margin-top: 45px;
+.card-tecnologies {
+    margin-left: 35px;
+    margin-top: 45px;
 }
+
 .card-tecnologies img {
     height: 50px;
     width: 50px;
     margin-right: 40px;
+}
+
+
+/*VERTICAL*/
+.vertical-card-container{
+    padding: 10px;
+    border-radius: 10px;
+}
+.v-contact-image{
+    height: 152px;
+    width: 152px;
+    object-fit: cover;
+    border-radius: 20%;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.v-card-name div{
+    display: flex;
+    justify-content: center;
+}
+
+.v-card-name h2 {
+    font-size: 3.2rem;
+    margin-bottom: 0px;
+}
+
+.v-card-name h3 {
+    font-size: 2.0rem;
+    color: black;
+}
+.v-card-tecnologie{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+}
+.v-card-tecnologie div{
+    display: flex;
+    margin-bottom: 60px;
+    justify-content: center;
+}
+.v-card-tecnologie div img{
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
 }

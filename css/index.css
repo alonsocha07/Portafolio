@@ -458,6 +458,12 @@ nav ul a:hover {
 
 /*Contact*/
 
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: #1d8484;
+}
+
 
 @media (max-width: 1470px) {
     .cursosruta { grid-template-columns: repeat(4, 1fr); }
