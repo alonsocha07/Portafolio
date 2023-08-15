@@ -108,7 +108,7 @@ header nav {
 }
 
 nav span {
-    background-image: url('/Assets/codigo.png');
+    background-image: url('../Assets/codigo.png');
     background-repeat: no-repeat;
     background-size: contain;
     width: 50px;
@@ -187,7 +187,7 @@ nav ul a:hover {
 .aboutme-container .aboutme-info-container .aboutme-info-social .aboutme-info-linkedin {
     width: 50px;
     height: 50px;
-    background-image: url('/Assets/linkedin.png');
+    background-image: url('../Assets/linkedin.png');
     display: inline-block;
     background-size: cover;
     margin-left: 30px;
@@ -196,7 +196,7 @@ nav ul a:hover {
 .aboutme-container .aboutme-info-container .aboutme-info-social .aboutme-info-github {
     width: 50px;
     height: 50px;
-    background-image: url('/Assets/github.png');
+    background-image: url('../Assets/github.png');
     background-size: cover;
 
     display: inline-block;
@@ -362,53 +362,53 @@ nav ul a:hover {
 
 
 .iconos-project-1 :nth-child(1) span {
-    background-image: url('/Assets/tecnologies/html-sinnombre.png');
+    background-image: url('../Assets/tecnologies/html-sinnombre.png');
 }
 .iconos-project-1 :nth-child(2) span {
-    background-image: url('/Assets/tecnologies/css-sinnombre.png');
+    background-image: url('../Assets/tecnologies/css-sinnombre.png');
 }
 .iconos-project-1 :nth-child(3) span {
-    background-image: url('/Assets/tecnologies/javascript.png');
+    background-image: url('../Assets/tecnologies/javascript.png');
 }
 .iconos-project-1 :nth-child(4) span {
-    background-image: url('/Assets/tecnologies/net.png');
+    background-image: url('../Assets/tecnologies/net.png');
 }
 .iconos-project-1 :nth-child(5) span {
-    background-image: url('/Assets/tecnologies/azure-devops.png');
+    background-image: url('../Assets/tecnologies/azure-devops.png');
 }
 
 
 .iconos-project-2 :nth-child(1) span {
-    background-image: url('/Assets/tecnologies/html-sinnombre.png');
+    background-image: url('../Assets/tecnologies/html-sinnombre.png');
 }
 .iconos-project-2 :nth-child(2) span {
-    background-image: url('/Assets/tecnologies/css-sinnombre.png');
+    background-image: url('../Assets/tecnologies/css-sinnombre.png');
 }
 .iconos-project-2 :nth-child(3) span {
-    background-image: url('/Assets/tecnologies/Firebase.png');
+    background-image: url('../Assets/tecnologies/Firebase.png');
 }
 .iconos-project-2 :nth-child(4) span {
-    background-image: url('/Assets/tecnologies/net.png');
+    background-image: url('../Assets/tecnologies/net.png');
 }
 .iconos-project-2 :nth-child(5) span {
-    background-image: url('/Assets/github.png');
+    background-image: url('../Assets/github.png');
 }
 
 
 .iconos-personal-1 :nth-child(1) span {
-    background-image: url('/Assets/tecnologies/html-sinnombre.png');
+    background-image: url('../Assets/tecnologies/html-sinnombre.png');
 }
 .iconos-personal-1 :nth-child(2) span {
-    background-image: url('/Assets/tecnologies/css-sinnombre.png');
+    background-image: url('../Assets/tecnologies/css-sinnombre.png');
 }
 .iconos-personal-1 :nth-child(3) span {
-    background-image: url('/Assets/tecnologies/javascript.png');
+    background-image: url('../Assets/tecnologies/javascript.png');
 }
 .iconos-personal-1 :nth-child(4) span {
-    background-image: url('/Assets/tecnologies/chatgpt.png');
+    background-image: url('../Assets/tecnologies/chatgpt.png');
 }
 .iconos-personal-1 :nth-child(5) span {
-    background-image: url('/Assets/tecnologies/Dall-E.png');
+    background-image: url('../Assets/tecnologies/Dall-E.png');
 }
 
 
