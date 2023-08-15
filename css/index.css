@@ -441,7 +441,7 @@ nav ul a:hover {
     width: 330px;
     height: 255px;
 }
-.htmlcssruta{
+.cursosruta{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto;
@@ -451,20 +451,22 @@ nav ul a:hover {
     text-align: center;
 }
 
-.htmlcssruta div img{
+.cursosruta div img{
     width: 231px;
     height: 178px;
 }
 
+/*Contact*/
+
 
 @media (max-width: 1470px) {
-    .htmlcssruta { grid-template-columns: repeat(4, 1fr); }
+    .cursosruta { grid-template-columns: repeat(4, 1fr); }
   }
 
 @media (max-width: 1257px) {
-    .htmlcssruta { grid-template-columns: repeat(3, 1fr); }
+    .cursosruta { grid-template-columns: repeat(3, 1fr); }
   }
 
   @media (max-width: 1013px) {
-    .htmlcssruta { grid-template-columns: repeat(2, 1fr); }
+    .cursosruta { grid-template-columns: repeat(2, 1fr); }
   }
