@@ -527,9 +527,7 @@ footer{
 }
 
 @media (max-width: 662px) {
-    /*.chiquito img{
-        transform: scale(0.8);
-    }*/
+
     .projects-container{
         transform: scale(0.8);
         margin-top: -140px;
@@ -539,6 +537,8 @@ footer{
     }
     
 }
+
+
 
 /*Platzi Titles*/
 @media (max-width: 1470px) {
