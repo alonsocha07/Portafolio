@@ -507,6 +507,11 @@ footer{
     nav span{display: none;}
 
     .titulo-universidad{ transform: scale(0.7);}
+
+    .aboutme-container .aboutme-info-container {
+        padding: 20px;
+    }
+
   }
 
   @media (max-width: 520px) {
@@ -533,12 +538,28 @@ footer{
         margin-top: -140px;
     }
     #h3-proyectos-personales {
-        margin-top: 0px;
+        margin-top: 0;
     }
-    
+    #projects{
+        margin-bottom: -160px;
+    }
 }
 
 
+@media (max-width: 450px) {
+
+    .projects-container{
+        transform: scale(0.65);
+        margin-top: -230px;
+    }
+    #h3-proyectos-personales {
+        margin-top: -115px;
+        margin-bottom: -100px;
+    }
+    #projects{
+        margin-bottom: -260px;
+    }
+}
 
 /*Platzi Titles*/
 @media (max-width: 1470px) {
