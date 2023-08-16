@@ -511,8 +511,8 @@ footer{
 
   @media (max-width: 520px) {
     
-    .cursosruta div img {
-        transform: scale(0.7);
+    .cursosruta div{
+        transform: scale(0.8);
     }
 
   }
