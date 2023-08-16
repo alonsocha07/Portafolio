@@ -314,7 +314,7 @@ nav ul a:hover {
 }
 
 .real-tecnologies-project {
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     justify-content: space-evenly;
 
@@ -527,9 +527,17 @@ footer{
 }
 
 @media (max-width: 662px) {
-    .chiquito{
-        transform: scale(0.5);
+    /*.chiquito img{
+        transform: scale(0.8);
+    }*/
+    .projects-container{
+        transform: scale(0.8);
+        margin-top: -140px;
     }
+    #h3-proyectos-personales {
+        margin-top: 0px;
+    }
+    
 }
 
 /*Platzi Titles*/
