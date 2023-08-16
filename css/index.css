@@ -465,6 +465,30 @@ footer{
 }
 
 
+
+/*Media Queries*/
+
+@media (max-width: 1115px) {
+    .aboutme-container .aboutme-img-container{ display: none;}
+
+    .aboutme-container{display: inline;}
+
+    .universidad-container{
+         
+        margin-top: 10px; 
+        margin-bottom: 10px;
+        flex-direction: column;
+        align-items: center;
+    
+    } 
+    .titulo-universidad{margin: 10px 0px 10px 0px}
+  }
+
+
+  
+
+
+/*Platzi Titles*/
 @media (max-width: 1470px) {
     .cursosruta { grid-template-columns: repeat(4, 1fr); }
   }

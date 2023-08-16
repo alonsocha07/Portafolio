@@ -84,7 +84,7 @@
     width: 152px;
     object-fit: cover;
     border-radius: 20%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-top: 25px;
 }
 
@@ -101,6 +101,7 @@
 .v-card-name h3 {
     font-size: 2.0rem;
     color: black;
+    margin-bottom: 35px;
 }
 .v-card-tecnologie{
     margin-top: 30px;
@@ -120,4 +121,242 @@
     width: 60px;
     margin-right: 20px;
     margin-left: 20px;
+}
+@media (max-width: 1400px) {
+    .horizontal-card-container {
+        width: 560px;
+        height: 320px;
+    }
+
+    .contact-image {
+        height: 122px;
+        width: 122px;
+    }
+
+    .card-name h2 {
+        font-size: 2.5rem;
+    }
+
+    .card-name h3 {
+        font-size: 1.6rem;
+    }
+
+    .card-contact img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .display-flex {
+        margin-bottom: 10px;
+    }
+
+    .display-flex p {
+        margin-left: 12px;
+    }
+
+    .card-tecnologies img {
+        height: 40px;
+        width: 40px;
+        margin-right: 32px;
+    }
+
+    /*VERTICAL*/
+
+    .vertical-card-container {
+        width: 320px;
+        height: 560px;
+    }
+
+    .v-contact-image {
+        height: 97px;
+        width: 97px;
+        margin-bottom: 6px;
+        margin-top: 16px;
+    }
+
+    .v-card-name h2 {
+        font-size: 2.5rem;
+    }
+
+    .v-card-name h3 {
+        font-size: 1.6rem;
+    }
+
+    .v-card-tecnologie div img {
+        height: 45px;
+        width: 45px;
+        margin-right: 13px;
+        margin-left: 13px;
+    }
+
+    .v-card-tecnologie div {
+        margin-bottom: 38px;
+    }
+}
+
+
+@media (max-width: 1175px) {
+    .horizontal-card-container {
+        width: 448px;
+        height: 256px;
+    }
+
+    .contact-image {
+        height: 97px;
+        width: 97px;
+    }
+
+    .card-name h2 {
+        font-size: 2rem;
+    }
+
+    .card-name h3 {
+        font-size: 1.3rem;
+    }
+
+    .card-contact img {
+        height: 16px;
+        width: 16px;
+    }
+
+    .display-flex {
+        margin-bottom: 8px;
+    }
+
+    .display-flex p {
+        margin-left: 10px;
+    }
+
+    .card-tecnologies img {
+        height: 32px;
+        width: 32px;
+        margin-right: 26px;
+    }
+
+    .card-tecnologies{
+        margin-top: 15px;
+    }
+
+    /* VERTICAL */
+
+    .vertical-card-container {
+        width: 256px;
+        height: 448px;
+    }
+
+    .v-contact-image {
+        height: 77px;
+        width: 77px;
+        margin-bottom: 5px;
+        margin-top: 13px;
+    }
+
+    .v-card-name h2 {
+        font-size: 2rem;
+    }
+
+    .v-card-name h3 {
+        font-size: 1.3rem;
+    }
+
+    .v-card-tecnologie div img {
+        height: 36px;
+        width: 36px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .v-card-tecnologie div {
+        margin-bottom: 30px;
+    }
+
+
+
+    .display-flex p {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 990px) {
+
+    .contact-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .horizontal-card-container {
+        width: 358.4px;
+        height: 204.8px;
+    }
+
+    .contact-image {
+        height: 77.6px;
+        width: 77.6px;
+    }
+
+    .card-name h2 {
+        font-size: 1.6rem;
+    }
+
+    .card-name h3 {
+        font-size: 1.04rem;
+    }
+
+    .card-contact img {
+        height: 12.8px;
+        width: 12.8px;
+    }
+
+    .display-flex {
+        margin-bottom: 6.4px;
+    }
+
+    .display-flex p {
+        margin-left: 8px;
+        font-size: 1.12rem;
+    }
+
+    .card-tecnologies img {
+        height: 25.6px;
+        width: 25.6px;
+        margin-right: 20.8px;
+    }
+
+    .card-tecnologies {
+        margin-top: 12px;
+    }
+
+    /* VERTICAL */
+
+    .vertical-card-container {
+        width: 204.8px;
+        height: 358.4px;
+        margin-top: 30px;
+    }
+
+    .v-contact-image {
+        height: 61.6px;
+        width: 61.6px;
+        margin-bottom: 4px;
+        margin-top: 10.4px;
+    }
+
+    .v-card-name h2 {
+        font-size: 1.6rem;
+    }
+
+    .v-card-name h3 {
+        font-size: 1.04rem;
+    }
+
+    .v-card-tecnologie div img {
+        height: 28.8px;
+        width: 28.8px;
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+
+    .v-card-tecnologie div {
+        margin-bottom: 24px;
+    }
 }
