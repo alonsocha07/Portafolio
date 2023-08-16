@@ -274,12 +274,12 @@ nav ul a:hover {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 60px;
 }
 
 .projects-container .project-individual {
     width: 520px;
-    height: 500px;
+    height: 560px;
     background-color: var(--gris);
     border-radius: 10px;
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
@@ -482,11 +482,55 @@ footer{
     
     } 
     .titulo-universidad{margin: 10px 0px 10px 0px}
+
+    .section-container{padding: 50px 50px;}
+
   }
 
+  @media (max-width: 700px) {
+    
+    nav span{display: none;}
+  }
+
+  @media (max-width: 635px) {
+    
+    .cursosruta div img {
+        width: 182px;
+        height: 142px;
+    }
+
+    header nav{
+        justify-content: center;
+        height: 140px;
+    }
+    nav ul{flex-direction: column; }
+    nav span{display: none;}
+
+    .titulo-universidad{ transform: scale(0.7);}
+  }
+
+  @media (max-width: 520px) {
+    
+    .cursosruta div img {
+        transform: scale(0.7);
+    }
+
+  }
 
   
 
+/*Projects*/
+@media (max-width: 1358px) {
+    .bajar{
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 662px) {
+    .chiquito{
+        transform: scale(0.5);
+    }
+}
 
 /*Platzi Titles*/
 @media (max-width: 1470px) {
