@@ -458,11 +458,7 @@ nav ul a:hover {
 
 /*Contact*/
 
-footer{
-    height: 200px;
-    width: 100%;
-    background-color: #1d8484;
-}
+
 
 
 
@@ -543,6 +539,10 @@ footer{
     #projects{
         margin-bottom: -160px;
     }
+    .project-personal-bajar{
+        margin-top: 90px;
+        margin-bottom: 100px;
+    }
 }
 
 
@@ -558,6 +558,11 @@ footer{
     }
     #projects{
         margin-bottom: -260px;
+    }
+
+    .project-personal-bajar{
+        margin-top: 185px;
+       margin-bottom: 160px;
     }
 }
 
