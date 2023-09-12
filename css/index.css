@@ -13,6 +13,13 @@
     scroll-behavior: smooth;
 }
 
+.hidden{
+    display: none;
+}
+.visible{
+    display: grid;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -456,12 +463,48 @@ nav ul a:hover {
     height: 178px;
 }
 
-/*Contact*/
+/*Modal*/
 
 
+.modal{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 4;
+    bottom: 0;
+    right: 0;
+  
+}
+.modal__content{
+    place-items: center;
+    background: rgb(218, 218, 218);
+    width: 80%;
+    height: 80%;
+    place-items: center;
+display: flex;
+flex-direction: column;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    padding: 30px 30px 30px 30px;
+    overflow-y: scroll;
+    border-radius: 10px;
+}
 
+.modal__content img{
+    
+    max-width: 832px ;
+    width: auto;
+    position: relative;
+    margin-bottom: 50px;
+    object-fit: contain;
+}
 
-
+#alerta{
+    color: red;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
 /*Media Queries*/
 
 @media (max-width: 1115px) {
@@ -481,6 +524,7 @@ nav ul a:hover {
 
     .section-container{padding: 50px 50px;}
 
+    .modal__content img {max-width: 100%;}
   }
 
   @media (max-width: 700px) {
@@ -578,3 +622,4 @@ nav ul a:hover {
   @media (max-width: 1013px) {
     .cursosruta { grid-template-columns: repeat(2, 1fr); }
   }
+  
