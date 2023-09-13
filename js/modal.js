@@ -19,35 +19,35 @@ marmatdiv.addEventListener('click', () => {
     title.innerText = 'Marmat';
     
     const img1 = document.createElement("img");
-    img1.src = `/Assets/projects/marmat/landing_page.jpg`;
+    img1.src = `../Assets/projects/marmat/landing_page.jpg`;
     img1.alt = `Landing page`;
     const p1 = document.createElement("p");
     p1.innerText = `Landing Page`;
     
 
     const img2 = document.createElement("img");
-    img2.src = `/Assets/projects/marmat/Catalogo.jpg`;
+    img2.src = `../Assets/projects/marmat/Catalogo.jpg`;
     img2.alt = `Catalog`;
     const p2 = document.createElement("p");
     p2.innerText = `Catalog`;
 
 
     const img3 = document.createElement("img");
-    img3.src = `/Assets/projects/marmat/especifico.jpg`;
+    img3.src = `../Assets/projects/marmat/especifico.jpg`;
     img3.alt = `Specific`;
     const p3 = document.createElement("p");
     p3.innerText = `Specific Condominium`;
 
 
     const img4 = document.createElement("img");
-    img4.src = `/Assets/projects/marmat/Dashboard.jpg`;
+    img4.src = `../Assets/projects/marmat/Dashboard.jpg`;
     img4.alt = `Dashboard`;
     const p4 = document.createElement("p");
     p4.innerText = `Dashboard`;
 
 
     const img5 = document.createElement("img");
-    img5.src = `/Assets/projects/marmat/Mantenimiento_Condominio.jpg`;
+    img5.src = `../Assets/projects/marmat/Mantenimiento_Condominio.jpg`;
     img5.alt = `CRUD`;
     const p5 = document.createElement("p");
     p5.innerText = `CRUD`;
@@ -83,56 +83,56 @@ colitasdiv.addEventListener('click', () => {
     title.innerText = 'Colitas';
     
     const img1 = document.createElement("img");
-    img1.src = `/Assets/projects/colitas/landing_page.jpg`;
+    img1.src = `../Assets/projects/colitas/landing_page.jpg`;
     img1.alt = `Landing page`;
     const p1 = document.createElement("p");
     p1.innerText = `Landing Page`;
     
 
     const img2 = document.createElement("img");
-    img2.src = `/Assets/projects/colitas/Mascotas.jpg`;
+    img2.src = `../Assets/projects/colitas/Mascotas.jpg`;
     img2.alt = `Mascotas`;
     const p2 = document.createElement("p");
     p2.innerText = `Pets`;
 
 
     const img3 = document.createElement("img");
-    img3.src = `/Assets/projects/colitas/MascotaEspecifica.jpg`;
+    img3.src = `../Assets/projects/colitas/MascotaEspecifica.jpg`;
     img3.alt = `Specific`;
     const p3 = document.createElement("p");
     p3.innerText = `Specific Pet`;
 
 
     const img4 = document.createElement("img");
-    img4.src = `/Assets/projects/colitas/Dashboard.jpg`;
+    img4.src = `../Assets/projects/colitas/Dashboard.jpg`;
     img4.alt = `Dashboard`;
     const p4 = document.createElement("p");
     p4.innerText = `Dashboard`;
 
 
     const img5 = document.createElement("img");
-    img5.src = `/Assets/projects/colitas/login.jpg`;
+    img5.src = `../Assets/projects/colitas/login.jpg`;
     img5.alt = `login`;
     const p5 = document.createElement("p");
     p5.innerText = `Login`;
 
 
     const img6 = document.createElement("img");
-    img5.src = `/Assets/projects/colitas/MantenimientoMascota.jpg`;
+    img5.src = `../Assets/projects/colitas/MantenimientoMascota.jpg`;
     img5.alt = `CRUD`;
     const p6 = document.createElement("p");
     p5.innerText = `Pet CRUD`;
 
 
     const img7 = document.createElement("img");
-    img5.src = `/Assets/projects/colitas/historialCorreo.jpg`;
+    img5.src = `../Assets/projects/colitas/historialCorreo.jpg`;
     img5.alt = `Email history`;
     const p7 = document.createElement("p");
     p5.innerText = `Email history`;
 
 
     const img8 = document.createElement("img");
-    img5.src = `/Assets/projects/colitas/administrarUsuarios.jpg`;
+    img5.src = `../Assets/projects/colitas/administrarUsuarios.jpg`;
     img5.alt = `User CRUD`;
     const p8 = document.createElement("p");
     p5.innerText = `User CRUD`;
